@@ -1,6 +1,13 @@
 <!doctype html>
 <html lang="en">
 <head>
+  <script>
+  const pass = prompt("Enter password to access:");
+  if (pass !== "bisnisnyagraciella") {
+    document.write("<h2 style='text-align:center;margin-top:20%;'>Access Denied</h2>");
+    window.stop();
+  }
+</script>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
 <meta name="description" content="Order, cost and content dashboard for crave.bites.sby, a preorder cake business in Surabaya.">
